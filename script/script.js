@@ -29,7 +29,7 @@
         case "paper":
           playerScore++;
           return console.log(
-            `You Win! ${sanitizedPlayerSelection} beats ${computerSelection}`
+            `Congrats! You Win! ${sanitizedPlayerSelection} beats ${computerSelection}`
           );
           break;
         case "scissors":

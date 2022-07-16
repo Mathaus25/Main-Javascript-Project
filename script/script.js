@@ -17,19 +17,11 @@ function game(userSelection, computerSelection) {
     console.log('You lose! Paper beats Rock');
   } else if (userSelection === 'rock' && computerSelection === 'scissors') {
     console.log('You win! Rock beats Scissors');
-  } else {
-    console.log('You tie!');
-  }
-
-  if (userSelection === 'scissors' && computerSelection === 'rock') {
+  } else if (userSelection === 'scissors' && computerSelection === 'rock') {
     console.log('You lose! Rock beats Scissors');
   } else if (userSelection === 'scissors' && computerSelection === 'paper') {
     console.log('You win! Scissors beats Paper');
-  } else {
-    console.log('You tie!');
-  }
-
-  if (userSelection === 'paper' && computerSelection === 'scissors') {
+  } else if (userSelection === 'paper' && computerSelection === 'scissors') {
     console.log('You lose! Scissors beats Paper');
   } else if (userSelection === 'paper' && computerSelection === 'rock') {
     console.log('You win! Paper beats Rock');
